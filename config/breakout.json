@@ -1,0 +1,20 @@
+{
+  "num_envs": 8,
+  "env_class": "GymEnv",
+  "env_name": "BreakoutNoFrameskip-v4",
+  "env_seed": 42,
+  "policy_class": "CNNPolicy",
+  "unroll_time_steps": 5,
+  "num_stack": 4,
+  "num_iterations": 20e6,
+  "learning_rate": 7e-4,
+  "gamma": 0.99,
+  "max_to_keep": 5,
+  "experiment_dir": "experiment_breakout",
+  "record_video_every": -1,
+  "save_every": 1000,
+  "eval_freq": 1000,
+  "print_freq": 1000,
+  "eval_num": 10,
+  "test_num": 10
+}

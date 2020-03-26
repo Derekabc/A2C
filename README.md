@@ -1,6 +1,6 @@
 # A2C
 
-This is a modified version of A2C (Advantage Actor Critic) based on Tensorflow. 
+This is a modified version of A2C (Advantage Actor Critic) of listed references based on Tensorflow. 
 
 ### Prerequisites
 - Python 3 or above

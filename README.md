@@ -22,7 +22,7 @@ You can also monitor the training process by type
 
 <p align="center">
      <img src="Docs/pong_tb.png" alt="output_example" width="60%" height="60%">
-     <br>Fig.4 Tensorboard plot of PongNoFrameskip-v4
+     <br>Fig.2 Tensorboard plot of PongNoFrameskip-v4
 </p>
 
 

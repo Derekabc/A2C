@@ -13,5 +13,11 @@
   "experiment_dir": "experiment_pong",
   "record_video_every": -1,
   "to_train": true,
-  "to_test": true
+  "to_test": true,
+  "gamma": 0.99,
+  "save_every": 1000,
+  "eval_freq": 1000,
+  "print_freq": 1000,
+  "eval_num": 10,
+  "test_num": 10
 }

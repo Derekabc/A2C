@@ -9,9 +9,9 @@ import argparse, json
 
 def parse_args():
     parser = argparse.ArgumentParser(description="A2C TensorFlow Implementation")
-    parser.add_argument('--config_file', default="config/breakout.json", type=str, help='Configuration file')
+    parser.add_argument('--config_file', default="config/pong.json", type=str, help='Configuration file')
     parser.add_argument('--env_name', type=str, required=False,
-                        default='BreakoutNoFrameskip-v4', help="env")
+                        default='PongNoFrameskip-v4', help="env")
     parser.add_argument('--is_training', type=str, required=False,
                         default=True, help="True=train, False=evaluation")
     parser.add_argument('--after_test', type=bool, required=False,

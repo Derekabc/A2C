@@ -12,12 +12,10 @@ class Trainer():
         self.cur_iteration = 0
         self.save_every = self.args.save_every
         self.summary_writer = summary_writer
-
         self.env = env
         self.model = model
         self.num_iterations = int(self.args.num_iterations)
         self.num_steps = self.model.num_steps
-
         self.model.init_model()
         self.model.load_model()
 

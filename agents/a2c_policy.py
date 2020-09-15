@@ -68,7 +68,6 @@ class ACPolicy:
             grads = tf.gradients(self.loss, params)
             if self.max_grad_norm is not None:
                 grads, grad_norm = tf.clip_by_global_norm(grads, self.max_grad_norm)
-
             # Apply Gradients
             grads = list(zip(grads, params))
             optimizer = tf.train.RMSPropOptimizer(learning_rate=self.learning_rate, decay=self.alpha,

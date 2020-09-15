@@ -1,4 +1,4 @@
-# A2C
+# A2C-TensorFlow
 
 This is a modified version of A2C (Advantage Actor Critic) of listed references based on Tensorflow. 
 
